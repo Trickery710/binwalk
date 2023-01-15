@@ -1,4 +1,4 @@
-FROM python:3-buster AS build-and-install
+FROM python:3.12.0a3-slim-bullseye AS build-and-install
 
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/src/app/bin \
     DEBIAN_FRONTEND=noninteractive
